@@ -1,0 +1,89 @@
+#app {
+  margin-top: 0 !important
+}
+
+nav.navbar.navbar-default {
+  background: #336600;
+  border: 0;
+  border-radius: 0;
+  padding: 5px 0
+}
+
+.navbar-brand {
+  color: white !important;
+  transition: all 0.2s ease
+}
+
+.navbar-brand:hover {
+  color: orange !important
+}
+
+.navbar li a {
+  color: white !important;
+  transition: all 0.2s ease
+}
+
+.navbar li a:hover {
+  color: orange !important
+}
+
+.navbar p {
+    line-height: 48px;
+    margin: 0;
+    color: white;
+}
+
+.navbar span {
+    font-weight: bold;
+}
+
+/*.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background: orange
+}*/
+
+.modal-content {
+    text-align: left;
+}
+
+span.help.is-danger {
+  color: red;
+  font-size: 13px
+}
+
+/* CONTENT */
+
+.bodyThread {
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-top: 15px
+}
+
+.bodyThread span {
+    margin-right: 30px;
+}
+
+/* ADD THREAD */
+
+.form_add_thread {
+  margin-top: 10px
+}
+
+/* THREAD */
+
+.thread .spec {
+  font-size: 12px
+}
+
+.thread .desc {
+  border-bottom: 1px solid silver;
+  padding-bottom: 10px
+}
+
+.item_ques {
+  border-bottom: 1px dotted silver
+}
+
+.add_comment {
+  color: silver;
+  font-size: 13px
+}
